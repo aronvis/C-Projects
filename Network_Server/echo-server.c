@@ -58,11 +58,6 @@ struct connectionObj
     int fileSize;
 };
 
-// struct bucketFilter
-// {
-
-// };
-
 struct logfileObj
 {
     logfileObj(std::unordered_map<std::string,std::string> *startup): fileOutput((*startup)["logfile"])
