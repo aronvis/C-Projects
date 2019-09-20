@@ -306,12 +306,6 @@ void parseRequestline(std::string requestLine, std::string &response, int &fileS
     }
 }
 
-/*
- * Should always call beter_write() instead of write()!
- * Return 0 if successful.
- * Return -1 if there is an error.
- *                     
- */
 int better_write(int fd, char *buf, int bytes_to_write)
 {
     while (bytes_to_write > 0) {
