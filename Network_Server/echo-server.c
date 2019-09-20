@@ -170,8 +170,7 @@ int create_master_socket(const char *port_number_str)
  *      to make a connection while it should be making a connection
  *
  * The accept function will return -1 without errno == EINTR if the master socket
- *      if the master socket is closed and shutdown, which will exit the function
- *      and return -1
+ *      is closed and shutdown, which will exit the function and return -1
  *
  * @param master_socket_fd - master socket created by create_master_socket().
  */
