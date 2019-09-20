@@ -101,7 +101,6 @@ struct serializationBox
     {
         delete logfile;
     }
-    // std::unordered_map<std::string,bucketFilter*> buckets;
 };
 
 void createPID(std::string fileName)
