@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4EA3A7D1DB264FBEBC372E28 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D54306217F5B4E64B4D29E26 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				968328D6F03A4FABA8E7ED55 /* CMake Rules */,
+			);
+			dependencies = (
+				0E683D64977D4C1F8E329610 /* PBXTargetDependency */,
+				8B5C591954B04D6EB2D5D881 /* PBXTargetDependency */,
+				65CD3546FB55455384636501 /* PBXTargetDependency */,
+				CEB7A178D68C4CB0B36A0CA0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		62B5A6CE880A4495BD2253C6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1AA3A8A824FF4A97A4D1A563 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7F9EE3D08CE94F65B128554D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06577DD63CD44C3698EBE05C /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.cpp */ = {isa = PBXBuildFile; fileRef = 6959E906A5854061BF8AD22F /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.cpp */; };
+		2F8710CD0C454DA4973D8A83 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.cpp */ = {isa = PBXBuildFile; fileRef = 9E2248E00DCD41AD8028ACDD /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.cpp */; };
+		37C62301B55F432D9CCEAF9C /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F622A0C722AD4F22A214A0EC /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/CMakeLists.txt */; };
+		38B18297CBC34A7795A657FE /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.cpp */ = {isa = PBXBuildFile; fileRef = DBA90092A0B54339B07F0CBB /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.cpp */; };
+		3F72A3BA40DC4AD3A95A5E9C /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.h */ = {isa = PBXBuildFile; fileRef = F7ED0FDEB17442AB9F8EE1AE /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.h */; };
+		7B76CC2535AD4761B3D7D321 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 69F3B0DB9E5A4332955F4648 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeLists.txt */; };
+		7DAE4EB041DE486C988EE229 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/Main.cpp */ = {isa = PBXBuildFile; fileRef = D5ADF9D6EDC042F0BABED300 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/Main.cpp */; };
+		80FB577CA1414513B59E225B /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/Catch.cpp */ = {isa = PBXBuildFile; fileRef = B8EC74D418F54710BE1F2BA0 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/Catch.cpp */; };
+		82ED9B287B6D4E3B96B56141 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.h */ = {isa = PBXBuildFile; fileRef = AE9A2C95DC7247C8855ABE01 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.h */; };
+		89955FE692594EE0A2CF0106 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/StudentTests.cpp */ = {isa = PBXBuildFile; fileRef = 792CE6EFD40D4C0CAC19BC1F /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/StudentTests.cpp */; };
+		D3762C4B2971444BB1F32385 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F58248D4C76244F9B29818C6 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/CMakeLists.txt */; };
+		ED3ED29454CC49969DD6DA10 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.h */ = {isa = PBXBuildFile; fileRef = 0836B203E444421AA7DE6347 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2A40AE75A0704BFB8D30D36F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B6C9AE96EB6C481D85C6E040 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C2D472BAC16B48139BC52195 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E0D29DA603E84526B3CA9049 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1FCA0B568DD94C1DBE7D7D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35BC69BC0042466AA1F6E4E5;
+			remoteInfo = tests;
+		};
+		26EEB83B4E434400BC283191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77421658C4EF4B73BE6DF0C1;
+			remoteInfo = src;
+		};
+		3936CC6049F5418E8191F207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77421658C4EF4B73BE6DF0C1;
+			remoteInfo = src;
+		};
+		3E3DAC0FB58448FF8C9E6776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B5A6CE880A4495BD2253C6;
+			remoteInfo = ZERO_CHECK;
+		};
+		975132292C9445A2B4495580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B5A6CE880A4495BD2253C6;
+			remoteInfo = ZERO_CHECK;
+		};
+		ADE46A8670AF431FAC336FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77421658C4EF4B73BE6DF0C1;
+			remoteInfo = src;
+		};
+		E1A860AED13047869CE53A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B5A6CE880A4495BD2253C6;
+			remoteInfo = ZERO_CHECK;
+		};
+		F70026631CBD43488B3787B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 815DF8BD80B24671992195E4;
+			remoteInfo = main;
+		};
+		FC9C57D544FD492E8F7222A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F497C478FD44D92B561B74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B5A6CE880A4495BD2253C6;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0836B203E444421AA7DE6347 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SrcMain.h; path = src/SrcMain.h; sourceTree = SOURCE_ROOT; };
+		6959E906A5854061BF8AD22F /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Movie.cpp; path = src/Movie.cpp; sourceTree = SOURCE_ROOT; };
+		69F3B0DB9E5A4332955F4648 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		792CE6EFD40D4C0CAC19BC1F /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/StudentTests.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StudentTests.cpp; path = tests/StudentTests.cpp; sourceTree = SOURCE_ROOT; };
+		9E2248E00DCD41AD8028ACDD /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IMDBServer.cpp; path = src/IMDBServer.cpp; sourceTree = SOURCE_ROOT; };
+		AE9A2C95DC7247C8855ABE01 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Movie.h; path = src/Movie.h; sourceTree = SOURCE_ROOT; };
+		B73359939343473A91B7D76D /* src */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsrc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B868C1DDF72F436489449C1E /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EC74D418F54710BE1F2BA0 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/Catch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Catch.cpp; path = tests/Catch.cpp; sourceTree = SOURCE_ROOT; };
+		BD92368F439E4636A6D16162 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CFAD07CF84EE4D34A911D558 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5ADF9D6EDC042F0BABED300 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = Main.cpp; sourceTree = SOURCE_ROOT; };
+		DBA90092A0B54339B07F0CBB /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SrcMain.cpp; path = src/SrcMain.cpp; sourceTree = SOURCE_ROOT; };
+		F58248D4C76244F9B29818C6 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F622A0C722AD4F22A214A0EC /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F7ED0FDEB17442AB9F8EE1AE /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IMDBServer.h; path = src/IMDBServer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		197290BEB6E544EB8EC1131E = {
+			isa = PBXGroup;
+			children = (
+				DA43AF335C06474B8A5D9A77 /* main */,
+				83B90FE4789D43A89D9054AE /* ALL_BUILD */,
+				F50C4603CB6243E9986587A7 /* src */,
+				8BA353689D0944B4B28ADB3C /* tests */,
+				65600DD5BD9B4138A1ADDBEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CF24EB81FB4A3A8DA6E030 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED0FDEB17442AB9F8EE1AE /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.h */,
+				AE9A2C95DC7247C8855ABE01 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.h */,
+				0836B203E444421AA7DE6347 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		251DB72C059646F2A40E3B82 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5ADF9D6EDC042F0BABED300 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/Main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		35E1D08AE3DD48B49CC5CF5B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC74D418F54710BE1F2BA0 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/Catch.cpp */,
+				792CE6EFD40D4C0CAC19BC1F /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/StudentTests.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3BEBCC1252244D61ADD8617B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		65600DD5BD9B4138A1ADDBEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B868C1DDF72F436489449C1E /* main */,
+				B73359939343473A91B7D76D /* src */,
+				CFAD07CF84EE4D34A911D558 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B90FE4789D43A89D9054AE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBCC1252244D61ADD8617B /* CMake Rules */,
+				BD92368F439E4636A6D16162 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8BA353689D0944B4B28ADB3C /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				35E1D08AE3DD48B49CC5CF5B /* Source Files */,
+				F58248D4C76244F9B29818C6 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		C5E21C6D84E343CFA9B48125 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E2248E00DCD41AD8028ACDD /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.cpp */,
+				6959E906A5854061BF8AD22F /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.cpp */,
+				DBA90092A0B54339B07F0CBB /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DA43AF335C06474B8A5D9A77 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				251DB72C059646F2A40E3B82 /* Source Files */,
+				69F3B0DB9E5A4332955F4648 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		F50C4603CB6243E9986587A7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C5E21C6D84E343CFA9B48125 /* Source Files */,
+				24CF24EB81FB4A3A8DA6E030 /* Header Files */,
+				F622A0C722AD4F22A214A0EC /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/CMakeLists.txt */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35BC69BC0042466AA1F6E4E5 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DA22168EE045959A0374C4 /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				9FD94546016E4453B642000A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F84BB5C2A24E53A2D7D46F /* PBXTargetDependency */,
+				FE198430491C4C53B41E143D /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = CFAD07CF84EE4D34A911D558 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		77421658C4EF4B73BE6DF0C1 /* src */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79A10C9C62A4360BA44FD6C /* Build configuration list for PBXNativeTarget "src" */;
+			buildPhases = (
+				21BC90EB1D7041909D7A013E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B08743CA604666AE77AE33 /* PBXTargetDependency */,
+			);
+			name = src;
+			productName = src;
+			productReference = B73359939343473A91B7D76D /* src */;
+			productType = "com.apple.product-type.library.static";
+		};
+		815DF8BD80B24671992195E4 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBF31AF94DF4A328B66408E /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				9AE6E7B86F7C47F3B349993A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D88F9890F0346AB8BFD1696 /* PBXTargetDependency */,
+				E73D1E7FE2E946D8823A4F3B /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = B868C1DDF72F436489449C1E /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F497C478FD44D92B561B74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = CC1D51A4D63C4E05BDE13A72 /* Build configuration list for PBXProject "pa7" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E0D29DA603E84526B3CA9049 /* Debug */,
+				2A40AE75A0704BFB8D30D36F /* Release */,
+				C2D472BAC16B48139BC52195 /* MinSizeRel */,
+				B6C9AE96EB6C481D85C6E040 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 197290BEB6E544EB8EC1131E;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				4EA3A7D1DB264FBEBC372E28 /* ALL_BUILD */,
+				62B5A6CE880A4495BD2253C6 /* ZERO_CHECK */,
+				815DF8BD80B24671992195E4 /* main */,
+				77421658C4EF4B73BE6DF0C1 /* src */,
+				35BC69BC0042466AA1F6E4E5 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F9EE3D08CE94F65B128554D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis -f /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		968328D6F03A4FABA8E7ED55 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis -f /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B1868A2F803043A29C4DE0FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FF0AD80401AA4D4BABAE1272 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21BC90EB1D7041909D7A013E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8710CD0C454DA4973D8A83 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/IMDBServer.cpp */,
+				06577DD63CD44C3698EBE05C /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Movie.cpp */,
+				38B18297CBC34A7795A657FE /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/SrcMain.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6E7B86F7C47F3B349993A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAE4EB041DE486C988EE229 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/Main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FD94546016E4453B642000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FB577CA1414513B59E225B /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/Catch.cpp */,
+				89955FE692594EE0A2CF0106 /* /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/StudentTests.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E683D64977D4C1F8E329610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 815DF8BD80B24671992195E4 /* main */;
+			targetProxy = F70026631CBD43488B3787B4 /* PBXContainerItemProxy */;
+		};
+		38B08743CA604666AE77AE33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B5A6CE880A4495BD2253C6 /* ZERO_CHECK */;
+			targetProxy = FC9C57D544FD492E8F7222A2 /* PBXContainerItemProxy */;
+		};
+		45F84BB5C2A24E53A2D7D46F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77421658C4EF4B73BE6DF0C1 /* src */;
+			targetProxy = 3936CC6049F5418E8191F207 /* PBXContainerItemProxy */;
+		};
+		5D88F9890F0346AB8BFD1696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77421658C4EF4B73BE6DF0C1 /* src */;
+			targetProxy = ADE46A8670AF431FAC336FB6 /* PBXContainerItemProxy */;
+		};
+		65CD3546FB55455384636501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35BC69BC0042466AA1F6E4E5 /* tests */;
+			targetProxy = 1FCA0B568DD94C1DBE7D7D43 /* PBXContainerItemProxy */;
+		};
+		8B5C591954B04D6EB2D5D881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77421658C4EF4B73BE6DF0C1 /* src */;
+			targetProxy = 26EEB83B4E434400BC283191 /* PBXContainerItemProxy */;
+		};
+		CEB7A178D68C4CB0B36A0CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B5A6CE880A4495BD2253C6 /* ZERO_CHECK */;
+			targetProxy = 975132292C9445A2B4495580 /* PBXContainerItemProxy */;
+		};
+		E73D1E7FE2E946D8823A4F3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B5A6CE880A4495BD2253C6 /* ZERO_CHECK */;
+			targetProxy = E1A860AED13047869CE53A49 /* PBXContainerItemProxy */;
+		};
+		FE198430491C4C53B41E143D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B5A6CE880A4495BD2253C6 /* ZERO_CHECK */;
+			targetProxy = 3E3DAC0FB58448FF8C9E6776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07B77DCBD8864128BE808E8D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/RelWithDebInfo/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1306832043BB4F31959B4EC9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/MinSizeRel/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		188A811332A74B7E9346E6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_RANDOM_DYN_LINK,BOOST_SYSTEM_DYN_LINK,BOOST_ALL_NO_LIB,BOOST_THREAD_DYN_LINK,BOOST_FILESYSTEM_DYN_LINK,BOOST_CHRONO_DYN_LINK,BOOST_ATOMIC_DYN_LINK,BOOST_DATE_TIME_DYN_LINK,BOOST_REGEX_DYN_LINK);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		28F3BC669E5844C4B24850B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Release/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3AB8706ACCF1490B94620102 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		48576108F860427D93B37D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Debug/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		513BA2B625454B13B4B9A7BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		538D691FCAC142E9A54D6D98 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5437D4496CEA4E1AAC235BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		56D9F85576FB44B6AB434FB0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/MinSizeRel/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E6CD1D0CCAA461E85DBCE18 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_RANDOM_DYN_LINK,BOOST_SYSTEM_DYN_LINK,BOOST_ALL_NO_LIB,BOOST_THREAD_DYN_LINK,BOOST_FILESYSTEM_DYN_LINK,BOOST_CHRONO_DYN_LINK,BOOST_ATOMIC_DYN_LINK,BOOST_DATE_TIME_DYN_LINK,BOOST_REGEX_DYN_LINK);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		726E73B2A15F4DFBBD48661C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_RANDOM_DYN_LINK,BOOST_SYSTEM_DYN_LINK,BOOST_ALL_NO_LIB,BOOST_THREAD_DYN_LINK,BOOST_FILESYSTEM_DYN_LINK,BOOST_CHRONO_DYN_LINK,BOOST_ATOMIC_DYN_LINK,BOOST_DATE_TIME_DYN_LINK,BOOST_REGEX_DYN_LINK);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8783FBC11BC84BC7A0E8237D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9C5E21E8EB494CA38D4CDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/build";
+			};
+			name = Debug;
+		};
+		A68343CD27434417B3EE111E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Debug/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AF18662DA22D4420A99EB73D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOOST_RANDOM_DYN_LINK,BOOST_SYSTEM_DYN_LINK,BOOST_ALL_NO_LIB,BOOST_THREAD_DYN_LINK,BOOST_FILESYSTEM_DYN_LINK,BOOST_CHRONO_DYN_LINK,BOOST_ATOMIC_DYN_LINK,BOOST_DATE_TIME_DYN_LINK,BOOST_REGEX_DYN_LINK);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = src;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B2AC2F859C994644B4171E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B6B545B16E1A403F97C0C124 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/build";
+			};
+			name = RelWithDebInfo;
+		};
+		BC27151810EB4EC78F1CC2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/Release/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C90A32D94EBD4F2B9DF453D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CCF3ABE1F9314D5AB6A846CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/build";
+			};
+			name = MinSizeRel;
+		};
+		D13619136E9F4617BF0FCA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/build";
+			};
+			name = Release;
+		};
+		D8D666E6029C4F488C0595AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FCCBAF12F3EE4DA287A48AEC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/RelWithDebInfo/libsrc.a /usr/local/lib/libcpprest.dylib /usr/local/lib/libboost_random.dylib /usr/local/lib/libboost_system.dylib /usr/local/lib/libboost_thread-mt.dylib  /usr/local/lib/libboost_filesystem.dylib /usr/local/lib/libboost_chrono.dylib /usr/local/lib/libboost_atomic-mt.dylib /usr/local/lib/libboost_date_time.dylib /usr/local/lib/libboost_regex.dylib  /usr/local/opt/openssl/lib/libssl.dylib /usr/local/opt/openssl/lib/libcrypto.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA3A8A824FF4A97A4D1A563 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5437D4496CEA4E1AAC235BDB /* Debug */,
+				8783FBC11BC84BC7A0E8237D /* Release */,
+				D8D666E6029C4F488C0595AD /* MinSizeRel */,
+				538D691FCAC142E9A54D6D98 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DBF31AF94DF4A328B66408E /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48576108F860427D93B37D4F /* Debug */,
+				BC27151810EB4EC78F1CC2CA /* Release */,
+				56D9F85576FB44B6AB434FB0 /* MinSizeRel */,
+				07B77DCBD8864128BE808E8D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC1D51A4D63C4E05BDE13A72 /* Build configuration list for PBXProject "pa7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5E21E8EB494CA38D4CDA47 /* Debug */,
+				D13619136E9F4617BF0FCA2F /* Release */,
+				CCF3ABE1F9314D5AB6A846CF /* MinSizeRel */,
+				B6B545B16E1A403F97C0C124 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D54306217F5B4E64B4D29E26 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90A32D94EBD4F2B9DF453D2 /* Debug */,
+				B2AC2F859C994644B4171E8A /* Release */,
+				3AB8706ACCF1490B94620102 /* MinSizeRel */,
+				513BA2B625454B13B4B9A7BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6DA22168EE045959A0374C4 /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68343CD27434417B3EE111E /* Debug */,
+				28F3BC669E5844C4B24850B0 /* Release */,
+				1306832043BB4F31959B4EC9 /* MinSizeRel */,
+				FCCBAF12F3EE4DA287A48AEC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F79A10C9C62A4360BA44FD6C /* Build configuration list for PBXNativeTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726E73B2A15F4DFBBD48661C /* Debug */,
+				188A811332A74B7E9346E6CC /* Release */,
+				5E6CD1D0CCAA461E85DBCE18 /* MinSizeRel */,
+				AF18662DA22D4420A99EB73D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F497C478FD44D92B561B74B /* Project object */;
+}

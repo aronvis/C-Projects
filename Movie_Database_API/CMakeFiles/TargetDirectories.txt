@@ -1,0 +1,5 @@
+/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeFiles/main.dir
+/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeFiles/ALL_BUILD.dir
+/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/CMakeFiles/ZERO_CHECK.dir
+/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/src/CMakeFiles/src.dir
+/Users/aronvischjager/Documents/Advanced_C++/pa7-aronvis/tests/CMakeFiles/tests.dir

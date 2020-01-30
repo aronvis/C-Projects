@@ -580,7 +580,7 @@ void executeMenu(int master_socket_fd, serializationBox *databox)
 }
 
 // This function will iterate through the top for loop until the program 
-//      has quit or max num connection is reached
+//      has quit or max num connections is reached
 // This function joins threads of connections that have closed 
 //      and removes those connection objects along the way
 void joinThreads(serializationBox *databox)

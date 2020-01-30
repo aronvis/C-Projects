@@ -1,0 +1,5 @@
+[startup]
+port=12345
+logfile=server.log
+pidfile=server.pid
+rootdir=serverData
