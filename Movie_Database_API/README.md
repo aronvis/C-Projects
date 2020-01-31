@@ -1,10 +1,5 @@
-# ITP 435 PA7 - Fall 2019 #
+To run the project:
 
-### EDIT BELOW ###
-Name: Tommy Trojan
-
-Email: ttrojan@usc.edu
-
-Section: [M/W or T/TH]
-
-Platform: [PC/MAC]
+1) Download title.basics.tsv at https://datasets.imdbws.com/
+2) Put title.basics.tsv inside the input folder
+3) Run the program :)
