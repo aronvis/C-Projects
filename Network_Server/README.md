@@ -1,4 +1,8 @@
-Echo Server Directions:
+# TCP Network Server
+File-sharing TCP communication system using C++ functionality and socket programming in C. Implemented multithreading using menu, client, and join threads that share a connection object.
+
+
+Server Directions:
 
 1. Move to the file directory
 2. Open a terminal and write “make run”
