@@ -16,8 +16,7 @@ To solve the game:
    cd src
 
 3. Value Iteration (Parameters are variable):  
-   ./frozen_lake --agent v --map ../maps/bridge.json --epsilon 0.99  
-   --alpha 1.0 --iteration 500 --gamma 0.99  
+   ./frozen_lake --agent v --map ../maps/bridge.json --epsilon 0.99 --alpha 1.0 --iteration 500 --gamma 0.99  
 
 4. Policy Iteration:  
    ./frozen_lake --agent p --map ../maps/bridge_stochastic.json --epsilon 0.2  --alpha 0.05 --iteration 500 --gamma 0.99  
