@@ -18,8 +18,8 @@ To solve the game:
 3. Value Iteration (Parameters are variable):  
    ./frozen_lake --agent v --map ../maps/bridge.json --epsilon 0.99 --alpha 1.0 --iteration 500 --gamma 0.99  
 
-4. Policy Iteration:  
+4. Policy Iteration (Parameters are variable):    
    ./frozen_lake --agent p --map ../maps/bridge_stochastic.json --epsilon 0.2  --alpha 0.05 --iteration 500 --gamma 0.99  
 
-5. Q-Learning:  
+5. Q-Learning (Parameters are variable):  
    ./frozen_lake --agent q --map ../maps/cliff_stochastic.json --epsilon 0.2  --alpha 0.2 --iteration 100 --gamma 0.99  
