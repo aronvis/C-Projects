@@ -1,4 +1,4 @@
-# Multi_Agent_Path_Finding
+# Multi Agent Path Finding
 Multi-agent pathfinding AI in C++ using time-space A*, prioritized planning, and conflict-based search. To run the program:
 1. Install python3-numpy python3-matplotlib
 2. Time-Space A-Star:  
